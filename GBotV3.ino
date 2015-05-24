@@ -50,7 +50,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   byte Tx_msg3[] = {0xFF, 0xFF, ServoID, bLength, 0x02, 0x00, 0x03, checksum}; //Model Number
   byte Tx_msg4[] = {0xFF, 0xFF, ServoID, bLength, 0x00, 0x74, 0x00, 0x08, checksum}; //Firmware
   byte Tx_msg5[] = {0xFF, 0xFF, ServoID, bLength, 0x01, checksum}; //Status
-  byte Tx_msg6[] = {0xFF, 0xFF, ServoID, bLength, 0x03, 0x1E, 0x00, 0x02, 0x00, 0x02, checksum}; // Position the output from 0 to 180 degreem at velocity of 57RPM (0x200)
+  byte Tx_msg6[] = {0xFF, 0xFF, ServoID, bLength, 0x03, 0x1E, 0x00, 0x02, 0x00, 0x02, checksum}; // Position the output from 0 to 180 degree at velocity of 57RPM (0x200)
   
   char inputBuffer[32];   // Incoming AX12 data
   
