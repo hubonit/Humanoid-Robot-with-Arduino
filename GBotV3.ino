@@ -1,7 +1,7 @@
 /*
 Humanoid Robot with Arduino
 
-Created By Hub on IT
+Created By ccgoh
 22/5/2015
 
 Dynamixel AX-12 Pin Connections
